@@ -1,0 +1,21 @@
+{
+    "name": "playwrighttests",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "npx playwright test -c playwright.service.config.ts --workers=20",
+        "test-local": "npx playwright test"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@playwright/test": "^1.43.0",
+        "@types/node": "^20.12.2",
+        "typescript": "^4.4.4"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "playwright": "^1.43.0"
+    }
+}

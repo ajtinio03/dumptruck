@@ -1,0 +1,6 @@
+{
+    "compilerOptions": {
+        "types": ["@playwright/test"],
+        "resolveJsonModule": true
+    }
+}
